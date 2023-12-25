@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backtracking</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1> Backtracking</h1>
+
+    <div class="primary-text-container"></div> <!--writing container term just before the starting of CH:"Forms and Links"-->
+    <!--primary-text-container & hidden primary-text-container-->
+    <div class="primary-text">Recurrsion Implementation</div>
+    <!--visibility as inherit & By-default the primary text container will also be hidden-->
+    <div class="secondary-text">Backtracking is important</div>
+       <!-- */No relation as per concept in these 2 above st. /* .--> 
+
+
+     <p class="description para"> Copyright &#169;2002 by David Matuszek</p> <!--/*Block display*/-->
+   <p class="description para"><strong>Backtracking is a from of recurrsion</strong></p>  <!--/*Block display*/--> 
+   
+
+   <p><b>RAM</b> is a good <em>boy</em>. He is 1<sup>st</sup> and biggest son of Chakravarti Dasrath ji who fought with Shanidev</p>
+   <p>Ram ji was lastly seen to <strong>Ayodhyawasi</strong> at <i><ins>Guptar Ghat</ins></i></p>
+   <p>This needs an example</p>
+   <center><img src="F:\JECRCU\Pb Webd\html\binary-search-tree-example.png" alt="binary-search-tree-example"></center>
+   <div>This is a backtracking image UNIQUELY WRITTEN</div>
+
+<ol start=5 reversed=true>
+<li>  Item1</li>
+<li>Item2</li>
+<li>Item3</li>
+<li>Item4</li>
+<li>Item5</li>
+</ol>
+
+<ol type="A">
+    <li>RAM RAM SAAB</li>
+</ol>
+
+<font size="4" color="green">
+    <pre>
+        /** Return middle value of b, c, d */
+    public static int <i>middle</i>(int b, int c, int d) {
+    int temp;
+
+    // Swap b, c to put <font>smaller</font> in b
+    if (b > c) {
+      temp= b;
+      b= c;
+      c= temp;
+    }
+
+    // { b <= c }
+    if (d <= b) {
+        return b;
+    }
+    // { b < d and b <= c }
+    return Math.min(c, d);
+}
+    </pre>
+
+</font>
+<ul type="square">
+    <li>
+       <heading1>Item A</heading1> 
+    </li>
+    <li>
+        <heading2>Item B</heading2> 
+    </li>
+</ul>
+<p>
+    Declare local variables close to first use
+A local variable is a variable declared within a method body.
+
+The tendency is to declare all variables at the beginning of the method body, and to start off inserting there all the variables you think you might need.<b>Fight this tendency!</b>  It leads to a proliferation of variables that often are not needed, and it forces the reader to look at and think about variables at the wrong time.
+</p>
+<p><font size="4" color="Black"></font> Public/private access modifiers
+    <h1><b>Java has four levels of access: public, private, protected, and package</b></h1> (the default; what you get when no modifier is specified). Here is how we generally use them:
+    
+    public: public items can be used anywhere.
+    Methods are public if they are part of the outward "behavior" of the class, i.e. if the user should be able to use them. Otherwise, make them private.
+    Constants, i.e. static final fields, are usually public so that anyone can use them.
+    private: private items can be referred to only in code within the class.
+    Fields and class (i.e. static) variables should should be private unless there is a specific, good reason for them to be otherwise.
+    A method should be made private if the user should not be able to call it from outside the class.
+    protected: Protected components can be referenced within the class, within subclasses, and within any class defined in the same package.
+    package (the default, i.e. what one gets when no modifer is used): package components can be referenced within the class and within any class that is in the same package.</font></p>
+
+</body>
+
+<a href="contact.html">Please share your contact details</a>
+<hr size=n>                                          <!--to add one horizontal line-->
+<table border="1px" align="center" cellpadding="10px">
+    
+</table>
+
+<div class="sizing-content-example">
+    content sizing 
+</div>
+    <div class="sizing-border-example">
+        Border sizing
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!--ADVANCE CSS-->
+
+
+
+
+
+
+
+</html>
+
+
